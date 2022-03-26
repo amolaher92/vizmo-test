@@ -13,9 +13,9 @@ const routes = [{
     },
     {
         path: '/simple-todo',
-        name: 'SimpleTodo',
-        component: () => import('../views/SimpleTodos.vue'),
-        meta: { title: 'Simple Todo' }
+        name: 'SimpleBlogs',
+        component: () => import('../views/SimpleBlogs.vue'),
+        meta: { title: 'Simple Blogs' }
     }
 ]
 
