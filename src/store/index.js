@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import todos from './modules/todos'
+import blogs from './modules/blogs'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
     modules: {
-        todos
+        blogs
     }
 })
