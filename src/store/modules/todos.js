@@ -31,7 +31,8 @@ const actions = {
      * define method to get blog data
      * */
     async fetchBlogs({ commit }) {
-        let response = await axios.get('posts')
+        let response = await axios.get('posts/?_page=1&_limit=10')
+        //let response = await axios.get('posts')
         response = response.data
 
         commit('getBlogs', response)
