@@ -12,7 +12,7 @@ import 'primeflex/primeflex.css';
 Vue.config.productionTip = false
 
 //define default axios API URL
-axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com/';
+axios.defaults.baseURL = 'https://620dfdda20ac3a4eedcf5a52.mockapi.io/api/';
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 axios.defaults.headers.common['Accept'] = 'application/json';
 //axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
